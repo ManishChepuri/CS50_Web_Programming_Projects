@@ -1,6 +1,6 @@
 # CS50 Web Programming: Google Search Front-End
 
-This project implements a front-end for **Google Search**, **Google Image Search**, and **Google Advanced Search** as part of CS50’s Web Programming course. The goal was to replicate key functionality of Google’s search interface using HTML and CSS.
+This project implements a front-end for **Google Search**, **Google Image Search**, and **Google Advanced Search** as part of CS50’s Web Programming course. The goal was to replicate key functionality and design elements of Google’s search interface using HTML and CSS.
 
 ## Features
 
