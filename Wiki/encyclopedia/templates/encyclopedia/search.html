@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+
+{% block body %}
+
+<h2>Closest Results to "{{ title }}":</h2>
+<ul>
+    {% for result in results %}
+    <li><a href="{% url 'encyclopedia:entry' result %}">{{ result }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
