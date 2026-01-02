@@ -6,13 +6,13 @@ This project is part of **CS50’s Web Programming with Python and JavaScript** 
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - User registration, login, and logout
 - Conditional UI rendering based on authentication status
 
-### 📦 Auction Listings
+### Auction Listings
 - Create new auction listings with:
   - Title
   - Description
@@ -22,7 +22,7 @@ This project is part of **CS50’s Web Programming with Python and JavaScript** 
 - View all **active listings** on the homepage
 - Close auctions (only by the listing creator)
 
-### 💰 Bidding System
+### Bidding System
 - Users can place bids on active listings
 - Bids must:
   - Be **greater than or equal to the starting bid**
@@ -30,19 +30,19 @@ This project is part of **CS50’s Web Programming with Python and JavaScript** 
 - Error messages shown for invalid bids
 - Highest bidder becomes the winner when an auction is closed
 
-### 💬 Comments
+### Comments
 - Signed-in users can comment on listings
 - All comments are displayed on the listing page
 
-### ⭐ Watchlist
+### Watchlist
 - Users can add or remove listings from their watchlist
 - Personalized watchlist page showing saved listings
 
-### 🗂 Categories
+### Categories
 - Listings can be assigned to categories
 - Category pages display all active listings in that category
 
-### 🛠 Admin Interface
+### Admin Interface
 - Django admin panel allows administrators to:
   - View, create, edit, and delete listings
   - Manage bids
@@ -50,7 +50,7 @@ This project is part of **CS50’s Web Programming with Python and JavaScript** 
 
 ---
 
-## 🧱 Models
+## Models
 
 The application includes the following models:
 
@@ -78,7 +78,7 @@ Additional relationships include:
 
 ---
 
-## 🖥 Pages Overview
+## Pages Overview
 
 | Page | Description |
 |----|----|
@@ -94,7 +94,7 @@ Additional relationships include:
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Download Distribution Code
 Download and unzip the project distribution:
