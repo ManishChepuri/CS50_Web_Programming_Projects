@@ -4,6 +4,9 @@ An eBay-like e-commerce auction site built with Django, allowing users to create
 
 This project is part of **CS50’s Web Programming with Python and JavaScript** and fulfills all requirements outlined in Project 2: *Commerce*.
 
+#### 5-min Video Overview
+https://www.youtube.com/watch?v=uZ-U0WfPcVI
+
 ---
 
 ## Features
