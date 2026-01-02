@@ -1,0 +1,27 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'auctions/index.css' %}">
+{% endblock %}
+
+{% block body %}
+    <h2>{{ name }}</h2>
+`
+    {% for listing in active_listings %}
+        {% if user.is_authenticated %}
+            <a href="{% url 'listing' listing.slug %}" class="big-button">
+        {% else %}
+            <a href="{% url 'login' %}" class="big-button">
+        {% endif %}
+                <img src="{{ listing.image_url }}" alt="Active item picture">
+                <div>
+                    <h3 class="title">{{ listing.title }}</h3>
+                    <div class="price">Price: ${{ listing.starting_bid }}</div>
+                    <div class="description">{{ listing.description }}</div>
+                    <div class="date">Created {{ listing.datetime }}</div>
+                </div>
+            </a>
+    {% endfor %}
+
+{% endblock %}
