@@ -1,0 +1,62 @@
+.big-button {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.big-button:hover {
+    background: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.big-button > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    margin-left: 400px;
+}
+
+.big-button > img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.title {
+    font-family: Arial, sans-serif; /* or any clean sans-serif */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.date {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #888;
+}
